@@ -52,6 +52,7 @@ class StarWars extends React.Component {
         {
           this.state.loadedCharacter &&
             <div>
+              <h1>Hi</h1>
               <h1>{this.state.name}</h1>
               <p>{this.state.height} cm</p>
               <p>Homeworld: <a href={this.state.homeworld}>Click here</a></p>
